@@ -1,0 +1,13 @@
+<div class="row">
+    {% for item in section.content %}
+        <div class="column">
+            <div class="card">
+                <h3>{{ item.title }}</h3>
+                <p>{{ item.body }}</p>
+            </div>
+        </div>
+        {% if loop.index is divisibleby 2 %}
+            </div><div class="row">
+        {% endif %}
+    {% endfor %}
+</div>
