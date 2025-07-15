@@ -1,4 +1,4 @@
-# DocTeng - Document Templating Engine
+# docteng - Document Templating Engine
 
 A flexible Jinja2-based document and newsletter renderer that supports dynamic templating with JSON content.
 
